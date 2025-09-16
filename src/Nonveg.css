@@ -1,0 +1,185 @@
+ /* .nonveg-container {
+  min-height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+.nonveg-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.nonveg-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.nonveg-card {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.nonveg-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.nonveg-image {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.nonveg-price {
+  font-weight: bold;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.add-btn {
+  background-color: green;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.add-btn:hover {
+  background-color: darkgreen;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #999;
+  cursor: pointer;
+  background: white;
+}
+
+.pagination button.active {
+  font-weight: bold;
+  background-color: #ddd;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}  */
+
+.nonveg-container {
+  min-height: 80vh;
+  width: 80vw;
+  padding: 20px;
+  margin-right: 80px;
+  margin-left: 80px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+.nonveg-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.nonveg-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+   width: 100%;
+}
+
+.nonveg-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.nonveg-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.nonveg-image {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.nonveg-price {
+  font-weight: bold;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.add-btn {
+  background-color: green;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.add-btn:hover {
+  background-color: darkgreen;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #999;
+  cursor: pointer;
+  background: white;
+}
+
+.pagination button.active {
+  font-weight: bold;
+  background-color: #ddd;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+} 

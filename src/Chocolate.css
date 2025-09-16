@@ -1,0 +1,167 @@
+/* .chocolate-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.chocolate-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.chocolate-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+}
+
+.chocolate-card {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chocolate-image {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #fafafa;
+  margin-bottom: 10px;
+}
+
+.chocolate-price {
+  font-weight: bold;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.add-btn {
+  background: green;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: darkgreen;
+}
+
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background: #4a90e2;
+  color: #fff;
+  font-weight: bold;
+}
+
+.pagination button:disabled {
+  background: #f0f0f0;
+  color: #999;
+  cursor: not-allowed;
+} */
+
+
+
+.chocolate-container {
+  min-height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.chocolate-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.chocolate-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 16px;
+  width: 100%;
+}
+
+.chocolate-card {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.chocolate-image {
+  height: 150px; /* reduced from 250px to 150px */
+  width: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  background: #fafafa;
+}
+
+.chocolate-price {
+  font-weight: bold;
+  color: green;
+}
+
+.add-cart-btn {
+  background-color: green;
+  color: white;
+  padding: 8px 12px; /* slightly smaller padding */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-cart-btn:hover {
+  background-color: darkgreen;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background: #4a90e2;
+  color: #fff;
+  font-weight: bold;
+}
+
+.pagination button:disabled {
+  background: #f0f0f0;
+  color: #999;
+  cursor: not-allowed;
+}

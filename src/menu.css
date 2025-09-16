@@ -1,0 +1,25 @@
+.menu-bar {
+  display: flex;
+  background: #222;
+  padding: 12px;
+  position: sticky; /* keeps menu at top */
+  top: 0;
+  z-index: 1000;
+}
+
+.menu-item {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.menu-item:hover {
+  color: #ff9800;
+}
+
+.menu-item.active {
+  font-weight: bold;
+  color: #4caf50;
+}
