@@ -4,20 +4,18 @@ import { addToCart } from './store';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-function Drinks() {
-  const drinkItems = useSelector(globalstate => globalstate.products.drinkItems);
+function Snacks() {
+  const snackItems = useSelector(globalstate => globalstate.products.snackItems);
   const dispatch = useDispatch();
 
   // Pagination logic
   const itemsPerPage = 4; 
   const [currentPage, setCurrentPage] = useState(1);
-  const totalPages = Math.ceil(drinkItems.length/itemsPerPage);
-  
-
+  const totalPages = Math.ceil(snackItems.length / itemsPerPage);
 
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-  const currentItems = drinkItems.slice(indexOfFirstItem, indexOfLastItem);
+  const currentItems = snackItems.slice(indexOfFirstItem, indexOfLastItem);
 
   const goToPage = (pageNumber) => {
     if (pageNumber < 1) pageNumber = 1;
@@ -43,7 +41,7 @@ function Drinks() {
       boxSizing: "border-box",
       backgroundColor: "#fdfaf6" // light creamy tone for milkshake
     }}>
-      <h2 style={{ textAlign: "center", marginBottom: "20px" }}>Drink Items</h2>
+      <h2 style={{ textAlign: "center", marginBottom: "20px" }}>Snacks Items</h2>
 
       {/* Grid for products */}
       <div style={{
@@ -79,7 +77,7 @@ function Drinks() {
               type="button"
               onClick={() => handleAddToCart(product)} // ✅ now using toast
               style={{
-                backgroundColor: "green",
+                backgroundColor: "#6a1b9a",
                 color: "white",
                 padding: "10px 16px",
                 border: "none",
@@ -128,9 +126,8 @@ function Drinks() {
           Next
         </button>
       </div>
-      <ToastContainer/>
     </div>
   );
 }
 
-export default Drinks;
+export default Snacks;

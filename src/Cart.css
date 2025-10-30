@@ -1,268 +1,3 @@
-/* .cart-container {
-  max-width: 900px;
-  margin: auto;
-  padding: 20px;
-}
-
-.cart-list {
-  list-style: none;
-  padding: 0;
-}
-
-.cart-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 15px;
-  background: #f9f9f9;
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-.cart-item-img {
-  width: 100px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-right: 15px;
-}
-
-.cart-item-details {
-  flex: 1;
-}
-
-.cart-buttons button {
-  margin-right: 8px;
-  padding: 5px 10px;
-  border: none;
-  background: green;
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.cart-buttons button:hover {
-  background: #0056b3;
-}
-
-.cart-summary {
-  margin-top: 20px;
-  padding: 15px;
-  background: #f1f1f1;
-  border-radius: 8px;
-}
-
-.discount-buttons button {
-  margin-right: 10px;
-  background: #28a745;
-  color: white;
-  border: none;
-  padding: 6px 12px;
-  border-radius: 5px;
-  cursor: pointer;
-  align-items: right;
-}
-
-.discount-buttons button:hover {
-  background: #218838;
-}
-
-.coupon-success {
-  margin-top: 10px;
-  color: green;
-  font-weight: bold;
-}
-
-.coupon-fail {
-  margin-top: 10px;
-  color: red;
-  font-weight: bold;
-}
-
-.email-section {
-  margin-top: 15px;
-}
-
-.email-section input {
-  width: 100%;
-  padding: 8px;
-  border: 1px solid gray;
-  border-radius: 5px;
-}
-
-.cart-actions {
-  margin-top: 20px;
-}
-
-.cart-actions button {
-  margin-right: 10px;
-  padding: 8px 15px;
-  background: black;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.cart-actions button:hover {
-  background: #444;
-} */
-
-
- 
-  /* .cart-container {
-  max-width: 900px;
-  margin: auto;
-  padding: 20px;
-}
-
-.cart-list {
-  list-style: none;
-  padding: 0;
-}
-
-.cart-item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 15px;
-  background: #f9f9f9;
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-.cart-item-img {
-  width: 100px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-right: 15px;
-}
-
-.cart-item-details {
-  flex: 1;
-}
-
-
-.cart-buttons {
-  display: flex;
-  gap: 8px; 
-  justify-content: flex-end;
-
-}
-
-.cart-buttons button {
-  padding: 5px 10px;
-  border: none;
-  background: green;
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.cart-buttons button:hover {
-  background: #0056b3;
-}
-
-.cart-summary {
-  margin-top: 20px;
-  padding: 15px;
-  background: #f1f1f1;
-  border-radius: 8px;
-  
-}
-
-.discount-buttons {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 10px;
- 
-}
-
-.discount-buttons button {
-  background: #28a745;
-  color: white;
-  border: none;
-  padding: 6px 12px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.discount-buttons button:hover {
-  background: #218838;
-}
-
-.coupon-success {
-  margin-top: 10px;
-  color: green;
-  font-weight: bold;
-
-}
-
-.coupon-fail {
-  margin-top: 10px;
-  color: red;
-  font-weight: bold;
-}
-
-.email-section {
-  margin-top: 15px;
-}
-
-.email-section input {
-  width: 100%;
-  padding: 8px;
-  border: 1px solid gray;
-  border-radius: 5px;
-}
-
-.cart-actions {
-  margin-top: 20px;
-  display: flex;
-  gap: 10px;
-}
-
-.cart-actions button {
-  padding: 8px 15px;
-  background: black;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.cart-actions button:hover {
-  background: #444;
-}
-.payment-section {
-  margin-top: 30px;
-  text-align: center; 
-  padding: 20px;
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-.payment-section h2 {
-  margin-bottom: 15px;
-}
-
-.payment-icons {
-  margin-top: 15px;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.payment-icons img {
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
-} 
-*/
-
-
 
 .cart-container {
   max-width: 2500px;
@@ -272,7 +7,7 @@
 
 .cart-main {
   display: flex;
-  gap: 200px; /* Space between left and right sections */
+  gap: 150px; /* Space between left and right sections */
 }
 
 .cart-left {
@@ -335,7 +70,7 @@
 }
 
 .cart-buttons button:hover {
-  background: #0056b3;
+  background:black;
 }
 
 .cart-summary {
@@ -406,21 +141,25 @@
 }
 
 .cart-actions button {
-  padding: 8px 15px;
-  background: black;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  background-color: green;
   color: white;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
+  font-weight: bold;
   cursor: pointer;
 }
 
 .cart-actions button:hover {
-  background: #444;
+  background: gray;
 }
 
 .payment-section {
-  margin-top: 30px;
-  text-align: center;
+  margin-top: 20px;
+  padding: 15px;
+  border-top: 1px solid #ddd;
 }
 
 .payment-section-inner {
@@ -452,46 +191,42 @@
   object-fit: contain;
 }
 
-
-.cart-actions button {
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 10px;
-  background-color: #6a1b9a;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-weight: bold;
-  cursor: pointer;
-}
-  /* previous */
-/* .cart-action-btn {
-  width: 100%;
-  padding: 12px;
-  margin: 10px 0;
-  background-color: #6a1b9a;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-}
-
-.cart-action-btn:hover {
-  background-color: #4a148c;
+/* Payment buttons all same color */
+.payment-options {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
 }
 
 .payment-options button {
-  margin-right: 10px;
-  padding: 10px 16px;
-  border-radius: 6px;
-  border: 1px solid #333;
-  background-color: #f2f2f2;
+  padding: 10px 20px;
+  background-color: black; /* same color for all buttons */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
+  transition: background 0.3s;
 }
 
 .payment-options button:hover {
-  background-color: #ddd;
+  background-color: #218838; /* hover effect */
 }
- */
+
+/* QR code section */
+.qr-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.qr-display p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}

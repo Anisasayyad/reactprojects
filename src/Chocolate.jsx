@@ -123,7 +123,7 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "./store";
 import "./Chocolate.css"; // ✅ external CSS file
-import { toast } from "react-toastify";
+import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function Chocolate() {
@@ -206,6 +206,7 @@ function Chocolate() {
           Next
         </button>
       </div>
+      <ToastContainer/>
     </div>
     
   );

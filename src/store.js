@@ -171,6 +171,12 @@ const productSlice = createSlice({
       { id: 402, name: "Mango", price: 100, image: "/mango.jsx" },
       { id: 403, name: "Orange", price: 150, image: "/orange.jpg" },
     ],
+    snackItems:[
+      { id: 501, name: "french fries", price: 120, image: "/frenc.jpg" },
+      { id: 502, name: "spring rolls", price: 100, image: "/spring.jpg" },
+      { id: 503, name: "pav bhaji", price: 150, image: "/pav.jpg" },
+
+    ]
   },
   reducers: {},
 });
